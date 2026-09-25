@@ -1,7 +1,13 @@
+import java.util.Scanner;
+
 public class PalindromeNumber {
     public static void main(String[] args) {
 
-        int number = 121;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int number = sc.nextInt();
+
         int originalNumber = number;
         int reverse = 0;
 
