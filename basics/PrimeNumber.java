@@ -1,7 +1,13 @@
+import java.util.Scanner;
+
 public class PrimeNumber {
     public static void main(String[] args) {
 
-        int number = 17;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int number = sc.nextInt();
+
         boolean isPrime = true;
 
         if (number <= 1) {
@@ -20,5 +26,7 @@ public class PrimeNumber {
         } else {
             System.out.println(number + " is not a Prime Number");
         }
+
+        sc.close();
     }
 }
