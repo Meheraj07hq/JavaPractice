@@ -22,9 +22,9 @@ public class PrimeNumber {
         }
 
         if (isPrime) {
-            System.out.println(number + " is a Prime Number");
+            System.out.println(number + " is a Prime Number.");
         } else {
-            System.out.println(number + " is not a Prime Number");
+            System.out.println(number + " is not a Prime Number.");
         }
 
         sc.close();
